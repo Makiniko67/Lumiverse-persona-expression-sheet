@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "Persona Expression Sheet",
+  "identifier": "persona_expression_sheet",
+  "author": "Your Name",
+  "github": "https://github.com/YOUR_USERNAME/lumiverse-persona-expression-sheet",
+  "homepage": "https://github.com/YOUR_USERNAME/lumiverse-persona-expression-sheet",
+  "description": "Upload custom expression art for your active persona and watch it react live as you chat.",
+  "permissions": ["personas", "images", "ui_panels"],
+  "requested_capabilities": ["base64_decode"],
+  "entry_backend": "dist/backend.js",
+  "entry_frontend": "dist/frontend.js",
+  "minimum_lumiverse_version": "0.9.0"
+}
